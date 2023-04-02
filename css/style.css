@@ -1,79 +1,84 @@
 /* =================  Font Familly ================== */
 @font-face {
-    font-family: CircularStd-lite;
-    src: url("../fonts/CircularStd-Light.otf") format("opentype"),; 
+    font-family: CircularStd light;
+    src: url("../fonts/CircularStd-Light.otf"); 
 }
 @font-face {
-    font-family: CircularStd-Medium;
-    src: url("../fonts/CircularStd-Medium.otf") format("opentype"),; 
+    font-family: CircularStd Medium;
+    src: url("../fonts/CircularStd-Medium.otf"); 
 }
 @font-face {
-    font-family: CircularStd-Bold;
-    src: url("../fonts/CircularStd-Bold.otf") format("opentype"),; 
+    font-family: CircularStd Bold;
+    src: url("../fonts/CircularStd-Bold.otf"); 
 }
 @font-face {
-    font-family: CircularStd-Black;
-    src: url("../fonts/CircularStd-Black.otf") format("opentype"),; 
+    font-family: CircularStd Black;
+    src: url("../fonts/CircularStd-Black.otf"); 
 }
 @font-face {
     font-family: CircularStd-Book ;
-    src: url("../fonts/CircularStd-Book.otf") format("opentype"),; 
-}
-@font-face {
-    font-family: CircularStd-Book;
-    src: url("../fonts/CircularStd-Book.otf") format("opentype"),; 
+    src: url("../fonts/CircularStd-Book.otf"); 
 }
 @font-face {
     font-family: Roboto-Bold;
-    src: url("../fonts/Roboto-Bold.ttf") format("opentype"),; 
+    src: url("../fonts/Roboto-Bold.ttf"); 
 }
 /* ======================= custom Design ================= */
 body{
     color: #040407;
    
 }
+.container{
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
 p{
     font-size: 18px;
     line-height: 28px;
-    font-family: CircularStd-lite;
+    font-family: CircularStd light;
 }
 h1, h1{
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     font-size: 60px;
     line-height: 70px;
     margin: 0px;
 }
 h2, .h2{
     color: #040407;
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     margin: 0px;
     font-size: 48px;
     line-height: 56px;
 }
 h3, .h3{
     color: #040407;
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     margin: 0px;
     font-size: 40px;
     line-height: 48px;
 }
 h5{
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 0px;
 }
 h6{
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     font-size: 18px;
     line-height: 18px;
 }
 .btn-first{
     color: #fff;
     border-radius: 0 !important;
-    padding: 17px 12px 17px 24px;
+    padding: 18px 24px;
     background-color: #1954d3;
     font-size: 18px;
     line-height: 28px;
+    font-family: CircularStd Black;
+}
+.btn:hover{
+    color: #fff;
 }
 .underline{
     position: relative;
@@ -87,7 +92,7 @@ h6{
     height: 11px;
     right: 0px;
     left: 0px;
-    bottom: -11px;
+    bottom: -14px;
    
 }
 .underline-black{
@@ -185,7 +190,7 @@ h6{
 }
 .second-section .heading{
     margin-left: 18px;
-    max-width: 340px;
+    max-width: 400px;
 }
 .second-section .heading h2{
     margin-bottom: 20px;
@@ -222,7 +227,7 @@ h6{
     margin-left: 50%;
 }
 .circle-corret span{
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     display: inline-block;
     margin-left: 15px;
 }
@@ -255,9 +260,6 @@ h6{
 }
 .moc-up:hover{
     transition: all 1s;
-}
-.moc-up:hover::after{
-
 }
 .moc-up::before{
     content: '';
@@ -497,19 +499,21 @@ img.c-one {
     border-radius: 4px;
     box-shadow: 7px 7px 99px 0 rgba(0, 0, 0, 0.06);
     background-color: #fff;
-  
-   min-height: 300;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+  min-height: 300px;
+  max-width: 399px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.discover-section .slider-box h5{
+    margin: 20px 0px;
 }
 .discover-section .slider-box img{
     width: 50px;
 }
 #discover-slider .owl-stage{
     padding-bottom: 120px;
-    padding-top: 60px;
+    padding-top: 75px;
 }
 #discover-slider.owl-theme .owl-nav {
     margin-top: 0px;
@@ -536,27 +540,25 @@ img.c-one {
     padding: 80px 0px;
 }
 .coundown-section .count-number{
-    font-family: CircularStd-Medium;
+    font-family: CircularStd Medium;
     display: block;
     font-size: 60px;
     line-height: 70px;
 }
-.coundown-section span{
-    margin-left: 65px;
-}
+
 /* =========== ========================== partnership section section ============================== ============ */
 .partnership-section{
-    padding: 150px 0px;
+ 
 }
-.partnership-section .content{
-    max-width: 557px;
+.partnership-section h2{
+    margin-bottom: 20px;
 }
-.p-cirlcle{
+.partnership-section .p-cirlcle{
     width: 763px;
     height: 763px;
     position: relative;
 }
-.long{
+.partnership-section .long{
     position: absolute;
     top: 2px;
     right: 0;
@@ -565,7 +567,7 @@ img.c-one {
     margin: auto;
     transition: all .5s;
 }
-.shor{
+.partnership-section .shor{
     position: absolute;
     top: -3px;
     right: 0;
@@ -580,4 +582,133 @@ img.c-one {
 }
 .p-cirlcle:hover .shor{
     rotate: 30deg;
+}
+/* =========== ========================== partnership section section ============================== ============ */
+.price-section{
+    position: relative;
+}
+.price-section::after{
+    content: '';
+    position: absolute;
+    background-color: #040407;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 550px;
+    z-index: -1;
+}
+.price-section .title{
+    padding: 60px 0px 72px;
+    color: #edf0ec;
+    text-align: center;
+}
+.price-section .price-card{
+  padding: 38px 104px 40px 69px;
+  border-radius: 6px;
+  border: solid 1px #edf0ec;
+  background-color: #fff;
+}
+.price-card .p-left img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.price-card .p-left .text1{
+    margin-bottom: 20px;
+    display: block;
+    font-family: CircularStd Medium;
+}
+.price-card .p-left .text2{
+    display: block;
+    font-family: CircularStd light;
+}
+.price-card .p-left h2{
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.price-card .p-left h2 span{
+    font-size: 24px;
+}
+.price-card .p-middle li{
+    margin-bottom: 23px;
+    font-family: CircularStd Medium;
+}
+.price-card .p-middle li i{
+    margin-left: 15px;
+    display: inline-block;
+}
+.price-card .sub-title{
+    margin: 20px 0px 40px;
+}
+.price-section .btm-text{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.price-section .btm-text span{ 
+    font-family: CircularStd Medium;
+    
+}
+/* =========== ========================== price-bottom-part ============================== ============ */
+.price-bottom-part{
+    margin: 150px 0px;
+}
+.price-bottom-part .bg{
+    padding: 40px 40px 40px 69px;
+    border-radius: 6px;
+    background-color: #92e3ca;
+}
+.price-bottom-part .content{
+    max-width: 550px;
+}
+.price-bottom-part .content p{
+   margin: 12px 0px 42px;
+}
+.price-bottom-part .underline-black::after{
+    bottom: -5px;
+}
+.price-bottom-part img{
+    position: relative;
+    left: -6px;
+}
+.accordion-section .container{
+    max-width: 1059px;
+}
+.accordion-section .accordion-item{
+    border: none;
+    border-bottom: 1px solid #edf0ec;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.accordion-section .accordion-button:not(.collapsed){
+    background-color: #fff;
+    color: #222222;
+    box-shadow: none;
+    padding-bottom: 0px;
+}
+.accordion-section .accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-section .accordion-button{
+    padding: 0px 20px 0px 0px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.accordion-section .accordion-body{
+    padding: 8px 100px 0px 0px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: CircularStd light;
+}
+.accordion-section .accordion-button.collapsed::after {
+    background: url("../images/acoordion-plus.svg");
+}
+  
+.accordion-section .accordion-button:not(.collapsed)::after {
+    background: url("../images/acoordion-plus.svg");
+}
+.accordion-button:not(.collapsed)::after { 
+    transform: rotate(-135deg);
 }

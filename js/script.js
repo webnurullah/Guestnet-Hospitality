@@ -50,26 +50,7 @@ $(document).ready(function(){
         navText : ["<i class='fa-regular fa-arrow-left-long'></i>","<i class='fa-regular fa-arrow-right-long'></i>"],   
         items:3,
         dots: false,
-        autoWidth:false, 
-        responsiveClass:true,
-        responsive:{
-            0:{
-                margin:20, 
-                items:1,             
-            },
-            768:{
-                margin:25,  
-                items:1,            
-            },
-            992:{
-                margin:35,    
-                items:2,
-            },
-            1200:{
-                margin:40, 
-                items:3,
-            }
-        }
+        autoWidth:true, 
     })
  
 
