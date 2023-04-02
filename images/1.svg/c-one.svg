@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="405" height="115" viewBox="0 0 405 115">
+  <defs>
+    <filter id="Path_1285" x="0" y="0" width="130" height="115" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" y1="0.87" x2="1" y2="0.13" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#727272" stop-opacity="0"/>
+      <stop offset="1" stop-color="#1a1a1a" stop-opacity="0.102"/>
+    </linearGradient>
+    <filter id="Rectangle_59" x="375" y="0" width="30" height="115" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-2"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-2" x="250" y="0" width="130" height="115" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-3"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_59-3" x="125" y="0" width="130" height="115" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur-4"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_5623" data-name="Group 5623" transform="translate(-16.5 -312.5)">
+    <g id="Component_729_9" data-name="Component 729 – 9" transform="translate(24 320)">
+      <g transform="matrix(1, 0, 0, 1, -7.5, -7.5)" filter="url(#Path_1285)">
+        <path id="Path_1285-2" data-name="Path 1285" d="M8,0h99a8,8,0,0,1,8,8V92a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(7.5 7.5)" fill="#282829"/>
+      </g>
+      <path id="base" d="M0,0H115a0,0,0,0,1,0,0V26a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" transform="translate(0 66)" fill="url(#linear-gradient)"/>
+      <text id="Check-In" transform="translate(58 86)" fill="#fff" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-24.463" y="0">Check-In</tspan></text>
+      <g id="Iconly_Light_Login" data-name="Iconly/Light/Login" transform="translate(41.286 19.62)">
+        <g id="Login" transform="translate(0 0)">
+          <path id="Stroke_1" data-name="Stroke 1" d="M20.068.5H0" transform="translate(0 14.916)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <path id="Stroke_3" data-name="Stroke 3" d="M0,0,4.88,4.86,0,9.72" transform="translate(15.189 10.556)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <path id="Stroke_4" data-name="Stroke 4" d="M0,7.7V6.14A6.14,6.14,0,0,1,6.142,0h8.14a6.124,6.124,0,0,1,6.125,6.125V24.692a6.142,6.142,0,0,1-6.142,6.142H6.123A6.125,6.125,0,0,1,0,24.708v-1.57" transform="translate(7.888 0)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        </g>
+      </g>
+    </g>
+    <g id="Component_729_10" data-name="Component 729 – 10" transform="translate(399 320)">
+      <g transform="matrix(1, 0, 0, 1, -382.5, -7.5)" filter="url(#Rectangle_59)">
+        <path id="Rectangle_59-4" data-name="Rectangle 59" d="M8,0h7a0,0,0,0,1,0,0V100a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" transform="translate(382.5 7.5)" fill="#fff"/>
+      </g>
+      <path id="base-2" data-name="base" d="M0,0H15a0,0,0,0,1,0,0V26.5A7.5,7.5,0,0,1,7.5,34h0A7.5,7.5,0,0,1,0,26.5V0A0,0,0,0,1,0,0Z" transform="translate(0 66)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Component_729_11" data-name="Component 729 – 11" transform="translate(274 320)">
+      <g transform="matrix(1, 0, 0, 1, -257.5, -7.5)" filter="url(#Rectangle_59-2)">
+        <rect id="Rectangle_59-5" data-name="Rectangle 59" width="115" height="100" rx="8" transform="translate(257.5 7.5)" fill="#fff"/>
+      </g>
+      <path id="base-3" data-name="base" d="M0,0H115a0,0,0,0,1,0,0V26a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" transform="translate(0 66)" fill="url(#linear-gradient)"/>
+      <text id="SPA" transform="translate(58 86)" fill="#1a1a1a" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-10.913" y="0">SPA</tspan></text>
+      <g id="lotus_1_" data-name="lotus(1)" transform="translate(41 15)">
+        <g id="Group_1148" data-name="Group 1148" transform="translate(0 4.88)">
+          <g id="Group_1147" data-name="Group 1147" transform="translate(0 0)">
+            <path id="Path_1108" data-name="Path 1108" d="M37.828,98.523a18.62,18.62,0,0,0-6.682.983,18.487,18.487,0,0,0-1.357-6.612.679.679,0,0,0-.884-.375,18.645,18.645,0,0,0-3.764,2.047A29.219,29.219,0,0,0,19.721,87.1a.679.679,0,0,0-.96,0,29.24,29.24,0,0,0-5.42,7.465,18.635,18.635,0,0,0-3.762-2.046.679.679,0,0,0-.884.375,18.488,18.488,0,0,0-1.357,6.623,18.533,18.533,0,0,0-6.682-.994.679.679,0,0,0-.655.7A18.648,18.648,0,0,0,18.607,117.2c.211,0,.423,0,.635-.011s.424.011.635.011A18.649,18.649,0,0,0,38.483,99.225.679.679,0,0,0,37.828,98.523ZM9.707,94.049a17.211,17.211,0,0,1,8.8,9.026,18.566,18.566,0,0,0-1.141,4.64,18.753,18.753,0,0,0-8.675-7.672A17.089,17.089,0,0,1,9.707,94.049ZM1.4,99.869a17.146,17.146,0,0,1,11.687,4.639,17.144,17.144,0,0,1,5.443,11.335A17.292,17.292,0,0,1,1.4,99.869ZM15.77,96.611q-.638-.639-1.331-1.209a27.84,27.84,0,0,1,4.8-6.85,27.829,27.829,0,0,1,4.8,6.851q-.691.569-1.33,1.207a18.5,18.5,0,0,0-3.472,4.81A18.484,18.484,0,0,0,15.77,96.611ZM19.239,112.1a18.463,18.463,0,0,0-.624-1.843c0-.145-.007-.3-.007-.466A17.256,17.256,0,0,1,28.777,94.049a17.092,17.092,0,0,1,1.014,5.98A18.715,18.715,0,0,0,19.239,112.1Zm.719,3.74a17.27,17.27,0,0,1,17.13-15.974A17.29,17.29,0,0,1,19.958,115.844Z" transform="translate(0 -86.902)" fill="#92e3ca"/>
+          </g>
+        </g>
+        <g id="Group_1150" data-name="Group 1150" transform="translate(0.38 13.161)">
+          <g id="Group_1149" data-name="Group 1149" transform="translate(0 0)">
+            <circle id="Ellipse_40" data-name="Ellipse 40" cx="0.679" cy="0.679" r="0.679" fill="#92e3ca"/>
+          </g>
+        </g>
+        <g id="Group_1152" data-name="Group 1152" transform="translate(8.646 5.625)">
+          <g id="Group_1151" data-name="Group 1151" transform="translate(0 0)">
+            <circle id="Ellipse_41" data-name="Ellipse 41" cx="0.679" cy="0.679" r="0.679" fill="#92e3ca"/>
+          </g>
+        </g>
+        <g id="Group_1154" data-name="Group 1154" transform="translate(18.562)">
+          <g id="Group_1153" data-name="Group 1153" transform="translate(0 0)">
+            <circle id="Ellipse_42" data-name="Ellipse 42" cx="0.679" cy="0.679" r="0.679" fill="#92e3ca"/>
+          </g>
+        </g>
+        <g id="Group_1156" data-name="Group 1156" transform="translate(28.48 5.625)">
+          <g id="Group_1155" data-name="Group 1155" transform="translate(0 0)">
+            <circle id="Ellipse_43" data-name="Ellipse 43" cx="0.679" cy="0.679" r="0.679" fill="#92e3ca"/>
+          </g>
+        </g>
+        <g id="Group_1158" data-name="Group 1158" transform="translate(36.744 13.161)">
+          <g id="Group_1157" data-name="Group 1157" transform="translate(0 0)">
+            <circle id="Ellipse_44" data-name="Ellipse 44" cx="0.679" cy="0.679" r="0.679" fill="#92e3ca"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Component_729_12" data-name="Component 729 – 12" transform="translate(149 320)">
+      <g transform="matrix(1, 0, 0, 1, -132.5, -7.5)" filter="url(#Rectangle_59-3)">
+        <rect id="Rectangle_59-6" data-name="Rectangle 59" width="115" height="100" rx="8" transform="translate(132.5 7.5)" fill="#fff"/>
+      </g>
+      <path id="base-4" data-name="base" d="M0,0H115a0,0,0,0,1,0,0V26a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" transform="translate(0 66)" fill="url(#linear-gradient)"/>
+      <text id="Hotel_A-Z" data-name="Hotel A-Z" transform="translate(58 86)" fill="#1a1a1a" font-size="12" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-27.469" y="0">Hotel A-Z</tspan></text>
+      <g id="Iconly_Light_Info_Square" data-name="Iconly/Light/Info Square" transform="translate(42.583 19.583)">
+        <g id="Info_Square" data-name="Info Square" transform="translate(0 0)">
+          <path id="Stroke_1-2" data-name="Stroke 1" d="M22.64,0H8.192C3.157,0,0,3.565,0,8.61V22.223c0,5.045,3.142,8.61,8.192,8.61H22.638c5.052,0,8.195-3.565,8.195-8.61V8.61C30.833,3.565,27.69,0,22.64,0Z" transform="translate(0 0)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <path id="Stroke_3-2" data-name="Stroke 3" d="M.5,6.667V0" transform="translate(14.908 15.417)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+          <path id="Stroke_2" data-name="Stroke 2" d="M.495.5H.512" transform="translate(14.905 8.59)" fill="none" stroke="#92e3ca" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

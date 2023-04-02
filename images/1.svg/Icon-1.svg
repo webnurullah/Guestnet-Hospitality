@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Icon" transform="translate(-350 -6175)">
+    <circle id="Ellipse_22" data-name="Ellipse 22" cx="25" cy="25" r="25" transform="translate(350 6175)" fill="#edf0ec"/>
+    <g id="clock-duotone" transform="translate(341 6165.965)">
+      <path id="Pfad_15410" data-name="Pfad 15410" d="M50.462,41.231A9.231,9.231,0,1,1,41.231,32a9.231,9.231,0,0,1,9.231,9.231Z" transform="translate(-7.231 -7.231)" fill="#92e3ca"/>
+      <path id="Pfad_15411" data-name="Pfad 15411" d="M34,24A10,10,0,1,0,44,34,10,10,0,0,0,34,24Zm0,18.462A8.462,8.462,0,1,1,42.462,34,8.462,8.462,0,0,1,34,42.462ZM40.154,34a.769.769,0,0,1-.769.769H34A.769.769,0,0,1,33.231,34V28.615a.769.769,0,0,1,1.538,0v4.615h4.615A.769.769,0,0,1,40.154,34Z"/>
+    </g>
+  </g>
+</svg>
