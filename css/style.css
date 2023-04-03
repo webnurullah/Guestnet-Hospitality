@@ -28,10 +28,6 @@ body{
     color: #040407;
    
 }
-.container{
-    padding-right: 0rem !important;
-    padding-left: 0rem !important;
-}
 p{
     font-size: 18px;
     line-height: 28px;
@@ -128,13 +124,13 @@ h6{
     z-index: 6;
     background-color: #040407;
     color: #fff;
-    min-height: 853px;
+    padding-bottom: 65px;
 }
 .hero-logo{
     padding: 49px 0px 12px;
 }
 .hero-heading{
-    margin-top: 134px;
+    margin-top: 122px;
 }
 .hero-heading .sub-title{
     margin-top: 30px;
@@ -177,11 +173,10 @@ h6{
 }
 /* =============== second section ================== */
 .second-section{
-    margin-top: 100px;
-    margin-bottom: 235px;
+    margin: 150px 0px 255px;
 }
 .second-section .heading{
-    margin-top: 110px;
+    margin-top: 65px;
 }
 .second-section .phone-mocup{
   margin-left: -45px;
@@ -209,7 +204,7 @@ h6{
    width: 95px;
 }
 .logo-slider-part {
-    margin-top: -600px;
+    margin-top: -645px;
     position: relative;
     z-index: 1;
 }
@@ -285,6 +280,7 @@ img.c-one {
     margin-left: 14px;
     margin-top: 93px;
     transition: all .5s;
+    width: 100%;
 }
 .moc-up:hover img.c-one{
     margin-top: 63px;
@@ -669,6 +665,10 @@ img.c-one {
     position: relative;
     left: -6px;
 }
+/* =========== ========================== accordion section ============================== ============ */
+.accordion-section{
+    margin-bottom: 150px;
+}
 .accordion-section .container{
     max-width: 1059px;
 }
@@ -712,3 +712,53 @@ img.c-one {
 .accordion-button:not(.collapsed)::after { 
     transform: rotate(-135deg);
 }
+/* =========== ========================== footer section  ============================== ============ */
+.footer-section{
+    background-color: #040407;
+    padding: 60px 30px 60px 60px;
+    color: #fff;
+}
+.footer-section span{
+    font-family: CircularStd light;
+}
+.footer-section  .footer-nav a{
+    color: #fff;
+    font-family: CircularStd Medium;
+}
+.footer-section .social-icon a{
+    color: #040407;
+}
+.footer-section .footer-nav{
+    margin: 0px 70px 0px 40px;
+    display: inline-block;
+}
+.footer-section .social-icon{
+    display: inline-block;
+}
+.footer-section .footer-nav .list-inline-item:not(:last-child){
+    margin-right: 40px;
+}
+.footer-section .social-icon .list-inline-item:not(:last-child){
+    margin-right: 20px;
+}
+.footer-section .social-icon .list-inline-item{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EDF0EC;  
+    text-align: center; 
+}
+.footer-section .social-icon .list-inline-item a{
+    display: flex;   
+    justify-content: center; 
+    align-items: center; 
+    height: 100%;
+}
+.footer-section .social-icon .list-inline-item a i{
+    font-size: 19px;
+}
+.footer-section .list-inline{
+    margin-bottom: 0px;
+}
+
+

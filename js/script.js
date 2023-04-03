@@ -8,7 +8,7 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                margin:30,              
+                margin:47,              
             },
             768:{
                 margin:47,              
@@ -30,7 +30,7 @@ $(document).ready(function(){
         responsiveClass:true,
         responsive:{
             0:{
-                margin:30,              
+                margin:47,              
             },
             768:{
                 margin:47,              
