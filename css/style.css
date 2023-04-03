@@ -33,6 +33,9 @@ p{
     line-height: 28px;
     font-family: CircularStd light;
 }
+a{
+    text-decoration: none;
+}
 h1, h1{
     font-family: CircularStd Medium;
     font-size: 60px;
@@ -106,7 +109,22 @@ h6{
     bottom: -14px;
    
 }
-
+.mobile-fix-btn{
+    position: fixed;
+    height: 60px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1954d3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: CircularStd Black;
+    z-index: 10;
+}
 /* =============== hero section ================== */
 .fix-header{
     padding: 18px 30px 18px 60px;
@@ -116,12 +134,12 @@ h6{
     top: 0;
     right: 0;
     left: 0;
-    z-index: 5;
+    z-index: 10;
     background-color: #fff;
 }
 .hero-section{
     position: relative;
-    z-index: 6;
+    z-index: 12;
     background-color: #040407;
     color: #fff;
     padding-bottom: 65px;
@@ -728,6 +746,8 @@ img.c-one {
     background-color: #040407;
     padding: 60px 30px 60px 60px;
     color: #fff;
+    position: relative;
+    z-index: 12;
 }
 .footer-logo img{
     width: 135px;
