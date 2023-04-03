@@ -125,6 +125,9 @@ h6{
     font-family: CircularStd Black;
     z-index: 10;
 }
+.hero-logo img{
+    width: 134px;
+}
 /* =============== hero section ================== */
 .fix-header{
     padding: 18px 30px 18px 60px;
@@ -258,21 +261,23 @@ h6{
     overflow: hidden;
 }
 .moc-up::after{
-    width: 100%;
-    height: 540px;
+    width: 200%;
+    height: 700px;
     background-image: linear-gradient(to bottom, #1a1a1a, rgba(26, 26, 26, 0.7) 33%, rgba(26, 26, 26, 0.6) 48%, rgba(26, 26, 26, 0.8) 69%, #1a1a1a), url('../images/mac-house.jpg');
     content: '';
     position: absolute;
-    right: 0;
-    left: 0;
-    top: 0;
+    left: -200px;
+    top: 0px;
     z-index: -1;
-    background-position: top center;
-    background-size: cover;
-    transition: all 1s;
+    background-size: contain;
+    transition: all .5s;
 }
 .moc-up:hover{
-    transition: all 1s;
+    transition: all .5s;
+}
+.moc-up:hover::after{
+    left: -230px;
+    transform: scale(1.2);
 }
 .moc-up::before{
     content: '';
@@ -566,7 +571,7 @@ img.c-one {
     line-height: 70px;
 }
 .coundown-section .count-text{
-    font-family: CircularStd lite;
+    font-family: CircularStd light;
     font-size: 18px;
 }
 /* =========== ========================== partnership section section ============================== ============ */
@@ -659,9 +664,11 @@ img.c-one {
 .price-card .p-middle li i{
     margin-right: 15px;
     display: inline-block;
+    font-size: 24px;
 }
 .price-card .sub-title{
     margin: 20px 0px 40px;
+    font-size: 16px;
 }
 .price-section .btm-text{
     margin-top: 30px;
@@ -751,7 +758,6 @@ img.c-one {
 }
 .footer-logo img{
     width: 135px;
-   
 }
 .footer-section span{
     font-family: CircularStd light;
