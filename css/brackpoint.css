@@ -20,6 +20,10 @@
         font-size: 40px;
         line-height: 45px;
     }
+    h3, .h3{
+        font-size: 35px;
+        line-height: 40px;
+    }
     .hero-slider{
         height: 650px;
     }
@@ -28,6 +32,16 @@
     }
     .second-section {
         margin: 100px 0px 200px;
+    }
+    .service-moc {
+        right: -45px;
+    }
+    .price-bottom-part img{
+        width: 100%;
+        left: 0px;
+    }
+    .price-bottom-part .content {
+        max-width: 462px;
     }
 }
 
@@ -42,6 +56,18 @@
     h2, .h2 {
         font-size: 35px;
         line-height: 40px;
+    }
+    h3, .h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    h5 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .coundown-section .count-number{
+        font-size: 40px;
+        line-height: 45px;
     }
     .hero-slider{
         height: 600px;
@@ -67,7 +93,46 @@
     #logo-slider2 .owl-stage{
         padding-bottom: 80px;
     }
-  
+    .partnership-section .p-cirlcle {
+        margin-left: -85px;
+    }
+    .price-section .price-card {
+        padding: 30px 30px;
+    }
+    .price-bottom-part .bg{
+        padding: 30px;
+    }
+    .discover-section {
+        padding-top: 100px;
+    }
+    #discover-slider .owl-stage {
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+    #discover-slider.owl-theme .owl-nav {
+        top: -45px;
+    }
+    .price-bottom-part {
+        margin: 100px 0px;
+    }
+    .accordion-section .container {
+        max-width: 880px;
+    }
+    .accordion-section {
+        margin-bottom: 100px;
+    }
+    .accordion-section .container {
+        max-width: 880px;
+    }
+    .accordion-section .accordion-button {
+        font-size: 22px;
+    }
+    .footer-section .footer-nav {
+        margin: 0px 46px 0px 26px;
+    }
+    .footer-section .footer-nav .list-inline-item:not(:last-child){
+        margin-right: 26px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -81,6 +146,21 @@
         font-size: 30px;
         line-height: 36px;
     }
+    h3, .h3{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .accordion-section .accordion-button {
+        font-size: 20px;
+    }
+    .coundown-section .count-number{
+        font-size: 33px;
+        line-height: 40px;
+    }
     .circle-corret {
         margin-left: 60%;
     }
@@ -92,15 +172,68 @@
     .second-section .heading{
         margin-left: 0px;
     }
+    .service-section .notification{
+        margin-left: 0px;
+        width: 90%;
+    }
+    .discover-section .container-xl{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    #discover-slider .owl-stage{
+        margin-left: 30px;
+     
+    }
+    .discover-section {
+        padding-top: 100px;
+    }
+    .partnership-section .p-cirlcle{
+        width: 500px;
+        height: 500px;
+    }
+    .partnership-section .p-cirlcle .c-img{
+        width: 100%;
+    }
+    .partnership-section .long {
+        top: -3px;
+        right: 0;
+        left: -1px;
+        bottom: 0;
+        width: 217px;
+    }
+    .partnership-section .shor {
+        top: -4px;
+        right: 0;
+        left: -9px;
+        bottom: 0;
+        width: 214px;
+    }
+    .coundown-section .col-12{
+        align-self: center;
+    }
+    .price-bottom-part {
+        margin: 100px 0px;
+    }
+    .price-bottom-part .content p {
+        margin: 12px 0px 20px;
+    }
+  
+    .accordion-section .container {
+        max-width: 650px;
+    }
+    .accordion-section .accordion-body {
+        padding: 8px 80px 0px 0px;
+    }
+    .footer-section .footer-nav {
+        margin: 0px 26px 0px 16px;
+    }
+    .footer-section .footer-nav .list-inline-item:not(:last-child){
+        margin-right: 16px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-   
-    .price-bottom-part img{
-        position: relative;
-        left: 0px;
-    }
+@media (max-width: 767px) { 
     .container{
         padding-right: 30px !important;
         padding-left: 30px !important;
@@ -157,28 +290,199 @@
         border-radius: 10px;
     }
     .circle-corret {
-        margin-left: 0%;
+        margin-left: 30px;
+    }
+    /* ================= service-section ============== */
+    .service-section{
+        position: relative;
+        padding-bottom: 0px;
+    }
+    .service-section h2 {
+        max-width: 763px;
+        padding: 60px 0px 38px;
+    }
+    .service-section .content{
+        max-width: 100%;
+        text-align: center;
+    }
+    .service-section .notification {
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    .spa-mocup .spa{
+        width: 100%;
+    }
+    .service-moc {
+        position: relative;
+        right: 0px;
+        left: 0;
+        top: 0px;
+        cursor: auto;
+        width: 100%;
+        
+    }
+    .service-section::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        right: 0;
+        left: 0;
+        background-image: url(../images/Spa.jpg);
+        bottom: 0px;
+        height: 65%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .service-section .content h5 {
+        margin: 0px 0px 20px;
+    }
+    .service-moc img{
+        width: 100%;
+        margin-left: 5%;
+        margin-bottom: -8%;
+    }
+    /* ======================== discover section ===============   */
+    .discover-section .slider-box{
+        width: 360px;
+        min-height: 249px;
+    }
+    #discover-slider .owl-stage{
+        margin-left: 20px;
+     
+    }
+    #discover-slider .owl-stage{
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    .discover-section .slider-box {
+        padding: 20px 20px 30px;
+        min-height: 300px;
+        max-width: 399px;
+    
+    }
+    .coundown-section{
+        padding: 60px 0px;
+    }
+    .coundown-section .count-number{
+        font-size: 34px;
+        margin-top: 30px;
+    }
+    /* ======================= = partnership section =================== */
+    .partnership-section {
+        padding-top: 60px;
+    }
+    .partnership-section .p-cirlcle {
+        margin-top: -70px;
+        margin-left: 0px;
+        margin-bottom: -30px;
+    }
+    .price-section .title {
+    padding: 60px 0px 34px;
     }
    
+    .price-card .p-left{
+        margin-bottom: 60px;
+    }
+    .price-card .p-middle{
+        margin-bottom: 60px;
+    }
+    .price-card .sub-title, .price-section .btm-text{
+        font-size: 16px;
+    }
+    .price-section::after{
+        height: 700px;
+    }
+    .price-section .price-card {
+        padding: 30px 26px;
+    }
+    .price-bottom-part {
+        margin: 60px 0px;
+        background-color: #92e3ca;
+    }
+    .price-bottom-part .bg {
+        padding: 30px 0px;
+        border-radius: 0px;
+        background-color: transparent;
+    }
+   
+    .price-bottom-part .content h2{
+        margin: 30px 0px 20px;
+    }
+    .price-bottom-part .btn-first{
+        background-color: #040407;
+    }
+    .price-bottom-part .content p {
+        margin: 0px 0px 20px;
+    }
+    .accordion-section .accordion-button {
+        font-size: 18px;
+    }
+    .accordion-section .accordion-body {
+        padding: 8px 50px 0px 0px;
+    }
+    .accordion-section .accordion-body {
+        padding: 8px 80px 0px 0px;
+    }
+    .accordion-section .accordion-body{
+        font-size: 16px;
+    }
+    .accordion-section {
+        margin-bottom: 60px;
+       
+    }
+    .footer-section {
+        padding: 60px 0px;
+        text-align: center;
+    }
+    .footer-section .footer-logo{
+        margin-bottom: 60px;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
     .hero-slider{
         height: 330px;
-       
     }
-    .hero-section .btn-first{
+    .btn-first{
         width: 100%;
     }
-  
-    
+    .service-section::after{
+        height: 64%;
+      
+    }
+    .service-section .notification{
+        margin-bottom: -20px;
+    }
+    .discover-section .slider-box{
+        width: 310px;
+        min-height: 249px;
+    }
+    .discover-section p{
+        font-size: 16px;
+    }
+    .price-section .btm-text{
+       padding: 0px 26px;
+    }
+    .accordion-section .accordion-body {
+        padding: 8px 60px 0px 0px;
+    }
  }
-
-
-
-
-
-
-
-}
+/* Small devices (landscape phones, 400px and up) */
+@media (max-width: 450px) { 
+    
+    .service-section::after{
+        height: 51%;
+      
+    }
+    .coundown-section .count-text {
+        font-size: 16px;
+    }
+    .partnership-section .p-cirlcle {
+        margin-left: -25%;
+    }
+    .accordion-section .accordion-body {
+        padding: 8px 30px 0px 0px;
+    }
+ }

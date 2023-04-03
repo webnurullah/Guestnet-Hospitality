@@ -195,14 +195,13 @@
         </div>
       </div>
 <!-- ======================= second section end========================= -->
-<div class="d-none" >
+
 <!-- ======================= service section start========================= -->
       <div class="service-section">
         <div class="container">
           <h2>Fai crescere il tuo fatturato in house in pochi <span class="underline-black" >semplici passi</span> </h2>
-
           <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-6 col-lg-4">
               <div class="content">
                 <h5>Come funziona?</h5>
                 <p>Guestnet supporta la tua reception con una serie di strumenti veloci ed efficaci per far crescere il fatturato del tuo hotel, aumentando le vendite di servizi aggiuntivi come per esempio i trattamenti SPA.</p>
@@ -215,21 +214,22 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-6 col-lg-8">
               <div class="spa-mocup">
-                <img src="images/Spa.jpg" alt="">
+                <img class="spa d-none d-md-block" src="images/Spa.jpg" alt="">
                 <div class="service-moc">
-                  <div class="close-icon">
-                    <i class="fa-regular fa-xmark"></i>
+                  <div class="d-none d-md-block">
+                    <div class="close-icon">
+                      <i class="fa-regular fa-xmark"></i>
+                    </div>
+                    <div class="love-icon">
+                      <i class="fa-sharp fa-regular fa-heart"></i>
+                    </div>
+                    <div class="animated-btn">
+                    </div>
                   </div>
-                  <div class="love-icon">
-                    <i class="fa-sharp fa-regular fa-heart"></i>
-                  </div>
-                  <div class="animated-btn">
-                   
-                  </div>
-                  
-                  <img src="images/service-mobile-moc.svg" alt="">
+                  <img  class="d-none d-md-block" src="images/service-mobile-moc.svg" alt="">
+                  <img  class="d-md-none" src="images/mobile-service-moc.svg" alt="">
                 </div>
               </div>
             </div>
@@ -237,11 +237,13 @@
         </div>
       </div>
 <!-- ======================= service section end========================= -->
-<div class="d-none" >
+
 <!-- ======================= discover section start========================= -->
       <div class="discover-section">
-        <div class="container">
+        <div class="container text-center text-md-start">
           <h2>Discover the advantages of <span class="underline-black" >Guestnet</span> </h2>
+        </div>
+        <div class="container-xl">
           <div id="discover-slider" class="owl-carousel owl-theme" >
             <div class="slider-box">
               <img src="images/clock.svg" alt="">
@@ -270,7 +272,7 @@
 <!-- ======================= discover section end========================= -->
 
 <!-- ======================= coundown section start========================= -->
-      <div class="coundown-section">
+      <div class="coundown-section text-center text-md-start">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-4">
@@ -278,15 +280,15 @@
             </div>
             <div class="col-12 col-md-3">
               <span class="count-number" >+1.700</span>
-              <span>clienti soddisfatti</span>
+              <span class="count-text" >clienti soddisfatti</span>
             </div>
             <div class="col-12 col-md-3">
               <span class="count-number" >2.900</span>
-              <span>utenti mensili</span>
+              <span class="count-text">utenti mensili</span>
             </div>
             <div class="col-12 col-md-2">
               <span class="count-number" >24 ore</span>
-              <span>settimanali risparmiate</span>
+              <span class="count-text">settimanali risparmiate</span>
             </div>
           </div>
         </div>
@@ -297,13 +299,13 @@
       <div class="partnership-section">
         <div class="container">
             <div class="row">
-              <div class="col-12 col-md-6 align-self-center">
+              <div class="col-12 col-md-6 col-lg-5 col-xxl-6 align-self-center text-center text-md-start">
                   <h2>Sviluppo continuo di integrazioni, Interfacce e Partnership</h2>
                 <p>Per ottimizzare la gestione centralizzata delle informazioni per l’ospite e potenziare le funzionalità personalizzate di up selling.</p>
               </div>
-              <div class="col col-md-6">
+              <div class="col-12 col-md-6 col-lg-7 col-xxl-6">
                 <div class="p-cirlcle">
-                  <img src="images/p-circle.svg" alt="">
+                  <img class="c-img" src="images/p-circle.svg" alt="">
                   <img class="long" src="images/log-ani-dot.svg" alt="">
                   <img class="shor" src="images/short-any-dot.svg" alt="">
                 </div>
@@ -358,14 +360,14 @@
         <div class="container">
           <div class="bg">
             <div class="row">
-              <div class="col col-md-7 align-self-center">
+              <div class="col-12 col-md-6 col-xl-7 align-self-center order-2 order-md-1">
                 <div class="content">
                   <h2>Fai crescere il <span class="underline-black" >tuo hotel</span> con noi</h2>
                 <p>Scopri subito come aumentare il tuo fatturato e ottimizzare i processi con Guestnet con una Demo Live.</p>
                 <button class="btn btn-first">Prenota una Demo gratuita</button>
                 </div>
               </div>
-              <div class="col col-md-5">
+              <div class="col-12 col-md-6 col-xl-5 order-1 order-md-2">
                 <img src="images/woman.jpg" alt="">
               </div>
             </div>
@@ -469,33 +471,35 @@
 <!-- ======================= accordion section end========================= -->
 
 <!-- ======================= footer section start ========================= -->
-<div class="footer-section">
-  <div class="content d-flex justify-content-between align-content-end">
-    <img src="images/hero-logo.svg" alt="">
-    <div class="f-right">
-      <span>P.Iva 03142940216</span>
-      <nav class="footer-nav">
-        <ul class="list-inline" >
-          <li class="list-inline-item" ><a href="">Colophon</a></li>
-          <li class="list-inline-item" ><a href="">Privacy</a></li>
-          <li class="list-inline-item" ><a href="">Cookies</a></li>
-        </ul>
-      </nav>
-      <div class="social-icon">
-        <ul class="list-inline" >
-          <li class="list-inline-item" ><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-          <li class="list-inline-item" ><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-          <li class="list-inline-item" ><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
-          <li class="list-inline-item" ><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>
+    <div class="footer-section">
+      <div class="content d-flex flex-column flex-md-row justify-content-center justify-content-md-between">
+        <div class="footer-logo">
+          <img  src="images/hero-logo.svg" alt="">
+        </div>
+        <div class="f-right">
+          <span class="d-none d-lg-inline-block" >P.Iva 03142940216</span>
+          <nav class="footer-nav d-none d-md-inline-block">
+            <ul class="list-inline" >
+              <li class="list-inline-item" ><a href="">Colophon</a></li>
+              <li class="list-inline-item" ><a href="">Privacy</a></li>
+              <li class="list-inline-item" ><a href="">Cookies</a></li>
+            </ul>
+          </nav>
+          <div class="social-icon">
+            <ul class="list-inline" >
+              <li class="list-inline-item" ><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="list-inline-item" ><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li class="list-inline-item" ><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+              <li class="list-inline-item" ><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 <!-- ======================= footer section end========================= -->
 
-</div>
 
+</div>
 
      <!-- jquery -->
     <script src="js/jquery.min.js"></script>

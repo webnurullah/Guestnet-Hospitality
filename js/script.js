@@ -51,6 +51,25 @@ $(document).ready(function(){
         items:3,
         dots: false,
         autoWidth:true, 
+        responsiveClass:true,
+        responsive:{
+            0:{
+                nav:false,    
+                margin:20,              
+            },
+            768:{
+                nav:false,    
+                margin:30,  
+                       
+            },
+            992:{
+                nav:true,    
+                margin:40,              
+            },
+            1400:{
+               
+            }
+        }
     })
  
 

@@ -326,6 +326,7 @@ img.c-one {
 .service-section{
     background-color: #EDF0EC;
     padding-bottom: 94px;
+    overflow: hidden;
 }
 .service-section h2{
     max-width: 763px;
@@ -346,11 +347,11 @@ img.c-one {
     border-radius: 8px;
     background: #fff;
     box-shadow: -6px 6px 176px rgba(0, 0, 0, 0.06);
-    padding: 23px 20px;
+    padding: 22px 20px;
     position: relative;
     margin-left: 110px;
     margin-top: 110px;
-    z-index: 1;
+    z-index: 3;
 }
 .service-section .alerm{
     width: 40px;
@@ -378,6 +379,11 @@ img.c-one {
 }
 .spa-mocup{
     position: relative;
+    z-index: 2;
+   
+}
+.spa{
+    width: 100%;
 }
 .service-moc{
   position: absolute;
@@ -541,10 +547,13 @@ img.c-one {
     font-size: 60px;
     line-height: 70px;
 }
-
+.coundown-section .count-text{
+    font-family: CircularStd lite;
+    font-size: 18px;
+}
 /* =========== ========================== partnership section section ============================== ============ */
 .partnership-section{
- 
+    overflow: hidden;
 }
 .partnership-section h2{
     margin-bottom: 20px;
@@ -554,6 +563,7 @@ img.c-one {
     height: 763px;
     position: relative;
 }
+
 .partnership-section .long{
     position: absolute;
     top: 2px;
@@ -625,11 +635,11 @@ img.c-one {
     font-size: 24px;
 }
 .price-card .p-middle li{
-    margin-bottom: 23px;
+    margin-bottom: 22px;
     font-family: CircularStd Medium;
 }
 .price-card .p-middle li i{
-    margin-left: 15px;
+    margin-right: 15px;
     display: inline-block;
 }
 .price-card .sub-title{
@@ -663,7 +673,8 @@ img.c-one {
 }
 .price-bottom-part img{
     position: relative;
-    left: -6px;
+    left: -18px;
+    width: 480px;
 }
 /* =========== ========================== accordion section ============================== ============ */
 .accordion-section{
@@ -718,6 +729,10 @@ img.c-one {
     padding: 60px 30px 60px 60px;
     color: #fff;
 }
+.footer-logo img{
+    width: 135px;
+   
+}
 .footer-section span{
     font-family: CircularStd light;
 }
@@ -736,10 +751,10 @@ img.c-one {
     display: inline-block;
 }
 .footer-section .footer-nav .list-inline-item:not(:last-child){
-    margin-right: 40px;
+    margin-right: 36px;
 }
 .footer-section .social-icon .list-inline-item:not(:last-child){
-    margin-right: 20px;
+    margin-right: 16px;
 }
 .footer-section .social-icon .list-inline-item{
     width: 40px;
