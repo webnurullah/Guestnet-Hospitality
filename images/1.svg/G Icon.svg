@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-  <g id="G_Icon" data-name="G Icon" transform="translate(0)">
-    <g id="Gruppe_4715" data-name="Gruppe 4715" transform="translate(0 0)">
-      <path id="Pfad_1218" data-name="Pfad 1218" d="M20,40h0A20,20,0,1,1,40,20,20,20,0,0,1,20,40" fill="#edf0ec"/>
-      <path id="Vereinigungsmenge_10" data-name="Vereinigungsmenge 10" d="M16.922,17.358l3.846-2.6V21.2l-3.846,2.6Zm-5.439,5.606A11.482,11.482,0,1,1,22.032,6.945L18.483,8.473a7.619,7.619,0,1,0-7,10.628h2.868v3.864Zm5.439-8.209H9.386V10.949H20.768v3.807Z" transform="translate(8.984 8.096)" fill="#040407" stroke="rgba(0,0,0,0)" stroke-width="1"/>
-    </g>
-  </g>
-</svg>

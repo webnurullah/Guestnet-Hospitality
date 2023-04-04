@@ -1,44 +1,71 @@
 $(document).ready(function(){
     $('#logo-slider').owlCarousel({
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplaySpeed: 2200,
+        autoplayTimeout: 2200,
+        autoplayHoverPause: false,
         margin:64,
         loop:true,
         nav:false,
         dots: false,
-        autoWidth:true, 
+        autoWidth:false, 
         responsiveClass:true,
         responsive:{
             0:{
+                items:4,
+                margin:47,              
+            },
+            576:{
+                items:5,
                 margin:47,              
             },
             768:{
+                items:6,
                 margin:47,              
             },
             992:{
+                items:8,
                 margin:50,              
             },
             1400:{
+                items:10,
                 margin:64,   
             }
         }
     })
     $('#logo-slider2').owlCarousel({
+        rtl: true,
+        autoplay: true,
+        slideTransition: 'linear',
+        autoplaySpeed: 2200,
+        autoplayTimeout: 2200,
+        autoplayHoverPause: false,
         margin:64,
         loop:true,
         nav:false,
         dots: false,
-        autoWidth:true, 
+        autoWidth:false, 
         responsiveClass:true,
         responsive:{
             0:{
+                items:4,
+                margin:47,              
+            },
+            576:{
+                items:5,
                 margin:47,              
             },
             768:{
+                items:6,
                 margin:47,              
             },
             992:{
+                items:8,
                 margin:50,              
             },
             1400:{
+                items:10,
                 margin:64,   
             }
         }
