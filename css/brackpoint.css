@@ -133,6 +133,12 @@
     .footer-section .footer-nav .list-inline-item:not(:last-child){
         margin-right: 26px;
     }
+    .right-part .right-inner {
+        max-width: 90%;
+    }
+    .left-part .left-inner{
+        max-width: 90%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -260,6 +266,7 @@
         margin: auto;
         width: 346px;
         height: 600px;
+        border-radius: 50px;
     }
     .logo-slider-part {
         margin-top: 0px;
@@ -437,6 +444,12 @@
     }
     .footer-section .footer-logo{
         margin-bottom: 60px;
+    }
+    .modal-content .right-part{
+        width: 100%;
+    }
+    .right-part .right-inner {
+        max-width: 90%;
     }
 }
 
