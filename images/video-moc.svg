@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="440" height="685" viewBox="0 0 440 685">
+  <defs>
+    <filter id="Rectangle_126" x="0" y="0" width="440" height="685" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="Maske" d="M8,0H326a8,8,0,0,1,8,8V556a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V8A8,8,0,0,1,8,0Z" transform="translate(0.434 0.17)" fill="#191a1a"/>
+    </clipPath>
+  </defs>
+  <g id="Order" transform="translate(-1334 -2475)">
+    <g transform="matrix(1, 0, 0, 1, 1334, 2475)" filter="url(#Rectangle_126)">
+      <path id="Rectangle_126-2" data-name="Rectangle 126" d="M40,0H310a40,40,0,0,1,40,40V595a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V40A40,40,0,0,1,40,0Z" transform="translate(45 45)" fill="#fff"/>
+    </g>
+    <g id="Group_4862" data-name="Group 4862" transform="translate(3)">
+      <circle id="Ellipse_47" data-name="Ellipse 47" cx="3" cy="3" r="3" transform="translate(1502 2536)" fill="#040407"/>
+      <rect id="Rectangle_164" data-name="Rectangle 164" width="87" height="6" rx="3" transform="translate(1514 2536)" fill="#040407"/>
+    </g>
+  </g>
+</svg>
